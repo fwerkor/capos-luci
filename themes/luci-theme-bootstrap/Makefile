@@ -6,7 +6,7 @@
 
 include $(TOPDIR)/rules.mk
 
-LUCI_TITLE:=Bootstrap Theme
+LUCI_TITLE:=Bootstrap Theme (For CapOS)
 LUCI_DEPENDS:=
 
 PKG_LICENSE:=Apache-2.0
