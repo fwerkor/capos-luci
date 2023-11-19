@@ -10,7 +10,7 @@ LUCI_TYPE:=col
 LUCI_BASENAME:=light
 
 LUCI_TITLE:=LuCI interface with Uhttpd as Webserver (light)
-LUCI_DESCRIPTION:=Light OpenWrt set including admin support and the default Bootstrap theme
+LUCI_DESCRIPTION:=Light CapOS set including admin support and the default Bootstrap theme
 LUCI_DEPENDS:= \
 	+IPV6:luci-proto-ipv6 \
 	+luci-app-firewall \
@@ -20,7 +20,8 @@ LUCI_DEPENDS:= \
 	+rpcd-mod-rrdns \
 	+uhttpd \
 	+uhttpd-mod-ubus \
-        +luci-app-ttyd
+        +luci-app-ttyd \
+        +cwd
 
 PKG_LICENSE:=Apache-2.0
 
