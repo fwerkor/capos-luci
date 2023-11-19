@@ -19,7 +19,8 @@ LUCI_DEPENDS:= \
 	+luci-theme-bootstrap \
 	+rpcd-mod-rrdns \
 	+uhttpd \
-	+uhttpd-mod-ubus
+	+uhttpd-mod-ubus \
+        +luci-app-ttyd
 
 PKG_LICENSE:=Apache-2.0
 
