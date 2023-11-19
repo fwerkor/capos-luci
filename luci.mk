@@ -70,7 +70,7 @@ LUCI_LC_ALIAS.zh_Hans=zh-cn
 LUCI_LC_ALIAS.zh_Hant=zh-tw
 
 # Default locations
-HTDOCS = /www
+HTDOCS = /cwd
 LUA_LIBRARYDIR = /usr/lib/lua
 LUCI_LIBRARYDIR = $(LUA_LIBRARYDIR)/luci
 UCODE_LIBRARYDIR = /usr/share/ucode/luci
