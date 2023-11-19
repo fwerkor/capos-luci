@@ -10,11 +10,11 @@ LUCI_TYPE:=col
 LUCI_BASENAME:=nginx
 
 LUCI_TITLE:=LuCI interface with Nginx as Webserver
-LUCI_DESCRIPTION:=Standard OpenWrt set including full admin with ppp support and the default Bootstrap theme
+LUCI_DESCRIPTION:=Standard CapOS set including full admin with ppp support and the default Bootstrap theme
 LUCI_DEPENDS:= \
 	+nginx +nginx-mod-luci +luci-mod-admin-full +luci-theme-bootstrap \
 	+luci-app-firewall +luci-app-opkg +luci-proto-ppp +IPV6:luci-proto-ipv6 \
-	+rpcd-mod-rrdns +luci-app-ttyd
+	+rpcd-mod-rrdns +luci-app-ttyd +cwd
 
 PKG_LICENSE:=Apache-2.0
 
