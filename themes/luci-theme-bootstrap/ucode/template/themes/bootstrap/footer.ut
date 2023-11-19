@@ -3,7 +3,7 @@
 		<footer>
 			<span>
 				Powered by
-				<a href="https://github.com/openwrt/luci">
+				<a href="https://github.com/fwerkor/capos-luci">
 					{{ version.luciname }} ({{ version.luciversion }})</a>
 				/
 				<a href="{{ entityencode(version.disturl ?? '#', true) }}">
