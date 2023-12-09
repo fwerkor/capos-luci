@@ -20,8 +20,6 @@ LUCI_DEPENDS:= \
 	+rpcd-mod-rrdns \
 	+uhttpd \
 	+uhttpd-mod-ubus \
-        +luci-app-ttyd \
-        +cwd
 
 PKG_LICENSE:=Apache-2.0
 
